@@ -50,6 +50,9 @@ latest version: [![](https://jitpack.io/v/alibardide5124/ComposeAdvancedShadow.s
 | `spread`       | Amount of shadow spread                                             |
 | `alpha`        | Shadow Color Alpha. Its recommended to use alpha for better shadows |
 
+Use `Modifier.advancedShadow(...)` inside a layout with `View.LAYER_TYPE_SOFTWARE` enabled to prevent render issues
+in api < 28. For that you can use `AdvancedShadowContainer` or just set it manualy in your layout
+
 ## Support
 
 If you like this application, just support it by joining [**stargazers**](https://https://github.com/alibardide5124/News-app/stargazers) for this repository
